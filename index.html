@@ -1,4 +1,4 @@
-!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head>
   <title>The Fictional Googology Incremental</title>
@@ -6,6 +6,19 @@
   <link href="style.css" rel="stylesheet">
 </head>
 <body>
-  <h1>The Fictional Googology Incremental </h1>
+  <center>
+  <h1>You have <span id="points">0</span> points</h1>
+  <h2>You are getting <span id="pps">0</span> points per second</h2>
+  </center>
+  <div class="Upgrades">
+		<button onclick="buyPGen1()" class="gen1"><center><h1>Point Generator I</h1><h2>Increases 1 Point per Second (<span id="numOfPg1">0</span>/500)</h2><h3>Cost: <span id="pg1Cost">0</span> points </h3></center></button>
+		<button onclick="buyPUtl1()" class="util1"><center><h1>Point Utilizer I</h1><h2>Increases PPS by 5 (<span id="numOfPu1">0</span>/500)</h2><h3>Cost: <span id="pu1cost">0</span> points </h3></center></button>
+	
+  </div>
+<div class="title">
+	<center><h2>The Fictional Googology Incremental</h2></center>
+	</div>
+<script src="script.js"></script>
+  
 </body>
 </html>
