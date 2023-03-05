@@ -1,0 +1,29 @@
+body{
+ font-family: Arial Black,sans-serif; 
+ background-color: black;
+ color: white;
+}
+
+.Upgrades{
+ background-color: white;
+ padding-left: 30px;
+ padding-right: 30px;
+ padding-bottom: 200px;
+ color: black;
+ 
+}
+
+.gen1{
+ background-color: black;
+ color: white;
+}
+
+.util1{
+ background-color: black;
+ color: white;
+ float: right;
+ padding-left: 50px;
+ padding-right: 50px;
+}
+
+
