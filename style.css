@@ -4,7 +4,7 @@ body{
  color: white;
 }
 
-.Upgrades{
+#Upgrades{
  background-color: white;
  padding-left: 30px;
  padding-right: 30px;
@@ -26,4 +26,36 @@ body{
  padding-right: 50px;
 }
 
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
 
+}
+
+li {
+  float: left;
+}
+
+.navButton{
+ background-color: white;
+ color: black;
+}
+
+#notEnough{
+	background-color: white;
+	color: black;
+}
+
+#backToGame{
+	color: black;
+	border: 2px solid black;
+	padding: 5px 50px;
+	background-color: white;
+	font size: 1.3em;
+}
+
+#notEnough{
+	display: none;
+}
