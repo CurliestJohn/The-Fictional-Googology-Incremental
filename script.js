@@ -37,7 +37,7 @@ function buyPUtl1(){
     game.numOfpUtils++;
   }else{
      document.getElementById("Upgrades").style.display="none";
-document.getElementById("notEnough").style.display="inline-block";
+document.getElementById("notEnough").style.display="block";
   }
 }
 
@@ -46,3 +46,12 @@ document.getElementById("Upgrades").style.display="block";
 document.getElementById("notEnough").style.display="none";
 
 }
+
+function tab(tab){
+	document.getElementById("Upgrades").style.display = "none";
+   document.getElementById("howTo").style.display = "none";
+   document.getElementById("credits").style.display = "none";
+	document.getElementById(tab).style.display = "block";
+}
+
+tab('Upgrades');
