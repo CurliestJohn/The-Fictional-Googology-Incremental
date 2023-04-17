@@ -16,8 +16,8 @@
   <div id="Upgrades">
 		<button onclick="buyPGen1()" class="gen1"><center><h1>Point Generator I</h1><h2>Increases 1 Point per Second (<span id="numOfPg1">0</span>/500)</h2><h3>Cost: <span id="pg1Cost">0</span> points </h3></center></button>
 		<button onclick="buyPUtl1()" class="util1"><center><h1>Point Utilizer I</h1><h2>Increases PPS by 5% (<span id="numOfPu1">0</span>/100)</h2><h3>Cost: <span id="pu1cost">0</span> points </h3></center></button>
-	
   </div>
+
 <center>
 <div id="notEnough">
 <center>
@@ -29,15 +29,36 @@
 </center>
 <div class="title">
 	<center><h2>The Fictional Googology Incremental</h2></center>
-	</div>
+</div>
+	
+	<div id="howTo">
+	<center>
+		<h2>HOW TO PLAY</h2>
+		<p>Get many points by purchasing point upgrades!</p>
+		<p>Your Goal is to pass Ordinal Levels, stages, Classes with point upgrades and reach Limit of Extending Points</p>
+		<button id="backToGame" onclick="tab('Upgrades')">Ok</button>
+	<center>
+   </div>
+   <div id="credits">
+	<center>
+		<h2>CREDITS</h2>
+		<p>NO! (For 0 to Endless, ????[2], and ????[3])</p>
+		<p>Mathis R.V (For 0 to Never)</p>
+		<p>Daniel Dixon (For 0 to LOE)</p>
+		<p>Neofinite2023 (Idea)</p>
+		<p>CurliestJohn and GC2021 (Pixelverse) for creating the game itself</p>
+		<p>And You (For playing and showing support)</p>
+		<button id="backToGame" onclick="tab('Upgrades')">Ok</button>
+	<center>
+   </div>
 	
 	<div class="nav">
    <ul>
-    <li><button onclick="tab('main')" class="navButton">Main</button></li>
+    <li><button onclick="tab('Upgrades')" class="navButton">Main</button></li>
     <li><button onclick="tab('settings')" class="navButton">Settings</button></li>
     <li><button onclick="tab('changelogs')" class="navButton">Changelogs</button></li>
     <li><button onclick="tab('credits')" class="navButton">Credits</button></li>
-    <li><button onclick="tab('tutorial')" class="navButton">How to play</button></li>
+    <li><button onclick="tab('howTo')" class="navButton">How to play</button></li>
    </ul>
   </div>
 
