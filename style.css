@@ -59,3 +59,9 @@ li {
 #notEnough{
 	display: none;
 }
+
+#howTo,#credits{
+	background-color: white;
+	color: black;
+	display: none;
+}
