@@ -65,3 +65,12 @@ li {
 	color: black;
 	display: none;
 }
+
+.nav{
+	padding: 5px;
+}
+.navButton{
+	background-color: white;
+	padding: 14px 16px;
+	font-size: 1em;
+}

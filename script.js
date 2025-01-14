@@ -8,7 +8,7 @@ game ={
 };
 
 setInterval (function(){
-game.points += game.pps/20;
+game.points += (game.pps/20*(1.05**game.numOfpUtils));
 document.getElementById("points").innerText = Math.floor(game.points);
 document.getElementById("pps").innerText = Math.floor(game.pps);
 if (game.numOfpGens < game.pgen.length){
@@ -41,7 +41,6 @@ document.getElementById("notEnough").style.display="block";
 function buyPUtl1(){
   if(game.points >= game.putil[game.numOfpUtils]){
     game.points -= game.putil[game.numOfpUtils];
-    game.pps *= 1.05;
     game.numOfpUtils++;
   }else{
      document.getElementById("Upgrades").style.display="none";
